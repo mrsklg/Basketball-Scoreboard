@@ -1,0 +1,96 @@
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEEEEE;
+}
+
+.container {
+    width: 600px;
+    background: #1B244A;
+    padding: 70px 85px;
+    border: 5px solid #9AABD8;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 200px;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.score {
+    margin: 25px 0;
+    padding: 10px;
+    background: #080001;
+    color: #F94F6D;
+    font-family: timer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 130px;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add {
+    background: none;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-family: timer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+#reset {
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    background: none;
+    color: #F94F6D;
+    border: 2px solid #F94F6D;
+    border-radius: 5px;
+    font-family: timer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
